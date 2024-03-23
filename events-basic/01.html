@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+</body>
+
+<script>
+
+  //  document.getElementById('owal').onclick = function(){
+  //   alert("owal clicked")
+  //  }
+
+   // attachEvent()
+    // jquery-on
+
+  //  document.getElementById('owal').addEventListener('click', function(){
+  //   alert('owal clicked again')
+  //  })
+
+
+    // type, timestamp, defualtprevented
+    // target, toelement, srcelement, currenttarget
+    // clientx, clienty, screeny
+    // altkey, ctrlkey, shiftkey, keycode
+  
+
+    document.getElementById('images').addEventListener('click', function(){
+      console.log("clicked inside ul");
+    },flase )
+
+
+
+    document.getElementById('owal').addEventListener('click', function(){
+      console.log(" owal clicked");
+      e.stoppropgation
+    },flase )
+
+
+    document.getElementById('google').addEventListener('click', function(){
+      e.preventdefult();
+      console.log("google clicked")
+
+      
+    })
+
+
+
+
+
+    
+    
+
+   
+
+
+
+
+</script>
+
+
+</html>
